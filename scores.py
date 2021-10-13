@@ -1,6 +1,10 @@
 def main():
     
-    items = ['0. Salir', '1. Mostrar Puntaje', '2. Agregar Puntaje', '3. Eliminar Puntaje', '4. Ordenar Puntajes']
+    items = ['0. Salir',
+    '1. Mostrar Puntaje',
+    '2. Agregar Puntaje',
+    '3. Eliminar Puntaje',
+    '4. Ordenar Puntajes']
     scores = []
     quit_scores = False
 
@@ -34,7 +38,7 @@ def main():
                 quit_scores = True
             else:
                 print('No pudimos procesar su respuesta.\nAsegúrese de ingresar un número del 1-5.\n')
-                
+
         except ValueError:
             print('No pudimos procesar su respuesta.\nAsegúrese de ingresar un número del 1-5.\n')
             
